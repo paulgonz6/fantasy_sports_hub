@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 1
+  rules: MyText
+  commissioner_id: 1
+  deadline: 2015-02-21 12:19:59
+  open_status: false
+  difficulty: 1
+  collection_id: 1
+  synopsis: MyString
+
+two:
+  price: 1
+  rules: MyText
+  commissioner_id: 1
+  deadline: 2015-02-21 12:19:59
+  open_status: false
+  difficulty: 1
+  collection_id: 1
+  synopsis: MyString

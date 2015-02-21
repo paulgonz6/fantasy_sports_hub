@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @game.price %>
+</p>
+
+<p>
+  <strong>Rules:</strong>
+  <%= @game.rules %>
+</p>
+
+<p>
+  <strong>Commissioner:</strong>
+  <%= @game.commissioner_id %>
+</p>
+
+<p>
+  <strong>Deadline:</strong>
+  <%= @game.deadline %>
+</p>
+
+<p>
+  <strong>Open status:</strong>
+  <%= @game.open_status %>
+</p>
+
+<p>
+  <strong>Difficulty:</strong>
+  <%= @game.difficulty %>
+</p>
+
+<p>
+  <strong>Collection:</strong>
+  <%= @game.collection_id %>
+</p>
+
+<p>
+  <strong>Synopsis:</strong>
+  <%= @game.synopsis %>
+</p>
+
+<%= link_to 'Edit', edit_game_path(@game) %> |
+<%= link_to 'Back', games_path %>
